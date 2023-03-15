@@ -1,0 +1,29 @@
+.popup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-inner{
+    margin: 0 1rem;
+    position: relative;
+    background-color: white;
+    width: 100%;
+    max-width: 640px;
+    padding: 20px;
+    font-size: 1.2rem;
+    border-radius: 0.8rem;
+}
+.popup-inner h3{
+    padding: 0 0 1rem 0;
+}
+.popup-inner button{
+    font-weight: 700;
+    font-size: 1.1rem ;
+    padding: 0.6rem;
+}

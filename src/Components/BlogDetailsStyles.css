@@ -1,0 +1,22 @@
+.blog-details h2 {
+    font-size: 20px;
+    color: rgb(150, 6, 6);
+    margin-bottom: 10px;
+}
+
+.blog-details p {
+    font-weight: bold;
+}
+
+.blog-body {
+    padding: 20px 0;
+}
+
+.blog-details button{
+    background-color: rgb(150, 6, 6);
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
