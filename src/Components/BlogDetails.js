@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import useFetch from "../useFetch";
 import "./BlogDetailsStyles.css"
+import { Link } from "react-router-dom";
 import Popup from "./Popup";
 
 const BlogDetails = () => {
@@ -18,6 +19,7 @@ const BlogDetails = () => {
                     <h2>{blog.title}</h2>
                     <p>Written by: {blog.author}</p>
                     <div className="blog-body">{blog.body}</div>
+                    <Link to={"/"} ><button className="home-btn">Home</button></Link>
                     <button onClick={() => setConfirm(true)}>Delete Blog</button>
                 </article>
             )}

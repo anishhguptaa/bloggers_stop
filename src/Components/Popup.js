@@ -21,7 +21,7 @@ function Popup(props) {
                 <h3>Do you really want to delete this blog?</h3>
                 <div className="popup-btns">
                     <button onClick={handleClick} style={{backgroundColor:"darkred", marginRight:"0.5rem"}} >Delete Blog</button>
-                    <button onClick={() => props.setTrigger(false)} style={{backgroundColor:"rgb(23, 112, 23)", marginLeft:"0.5rem"}} >Cancel</button>
+                    <button onClick={() => props.setTrigger(false)} style={{backgroundColor:"rgb(23, 112, 23)"}} >Cancel</button>
                 </div>
             </div>
         </div>) : "" 

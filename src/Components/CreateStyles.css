@@ -4,35 +4,38 @@
     text-align: center;
 }
 .create label { 
+    color: antiquewhite;
+    font-size: 1.2rem;
+    font-weight: 600;
     text-align: left;
     display: block;
 }
-.create h2{
-    font-size: 20px;
-    color: rgb(150, 6, 6);
-    margin-bottom: 30px;
-}
 .create p{
+    color: antiquewhite;
     margin-top: 1rem;
     font-size: 1.5rem;
     font-weight: 600;
 }
 .create input, .create textarea, .create select {
     width: 100%;
+    background-color: black;
+    color: antiquewhite;
     padding: 6px 10px;
     margin: 10px 0;
-    border: 1px solid #ddd;
+    border: 1px solid antiquewhite;
     box-sizing: border-box;
     display: block;
+    border-radius: 8px;
+    font-size: 1.2rem;
 }
 .create button{
     background-color: rgb(150, 6, 6);
     color: #fff;
     border: 0;
-    padding: 8px;
+    padding: 0.6rem;
     border-radius: 8px;
     cursor: pointer;
     font-size: medium;
     font-weight: 450;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
 }

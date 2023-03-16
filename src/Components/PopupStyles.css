@@ -11,8 +11,8 @@
 }
 .popup-inner{
     margin: 0 1rem;
-    position: relative;
-    background-color: white;
+    position: relative; 
+    background-color: rgb(15, 15, 15);
     width: 100%;
     max-width: 640px;
     padding: 20px;
@@ -20,7 +20,12 @@
     border-radius: 0.8rem;
 }
 .popup-inner h3{
+    color: white;
     padding: 0 0 1rem 0;
+}
+.popup-btns{
+    display: flex;
+    justify-content: space-evenly;
 }
 .popup-inner button{
     font-weight: 700;
